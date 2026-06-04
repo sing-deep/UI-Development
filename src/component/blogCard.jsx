@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import image from './assets/Image.svg'
+
+import image from '../assets/Image.svg'
 import {ArrowRight } from 'lucide-react';
 
-function App() {
-  return (
+const BlogCard = () => {
+     return (
     <main className='min-h-screen w-full flex justify-center items-center bg-linear-to-br from-[#F9FAFB] to-[#D2D6DB] p-4'>
       <article className=' flex flex-col lg:mx-0 md:mx-29.5 mx-4 w-full max-w-85 min-h-126 shadow-lg rounded-lg bg-white overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl group'>
         <img 
@@ -35,5 +35,4 @@ function App() {
     </main>
   )
 }
-
-export default App
+export default BlogCard
